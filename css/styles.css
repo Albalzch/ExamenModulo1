@@ -1,0 +1,33 @@
+.ToDo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+ 
+}
+.task{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgb(82, 113, 170);
+    height: 50px;
+    width:300px;
+    gap: 20px;
+    
+    
+}
+.task>h3{
+    margin-left: 100px;
+    color:white;
+}
+.newtask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
